@@ -1,3 +1,8 @@
+html {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 nav {
 	background-color: grey;
 	width: 100%;
@@ -13,6 +18,7 @@ li {
 }
 img[src*=icon] {
 	border: 1px solid black;
+	width: 60px;
 	border-radius: 50%;
 	float: left;
 	margin: 5px 0px 5px 100px;
@@ -36,9 +42,4 @@ img[src*=space] {
 .cat {
 	right: 125px;
 	bottom: 125px;
-}
-html {
-	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
 }
